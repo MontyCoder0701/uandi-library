@@ -1,6 +1,6 @@
 # UandiWorkspace
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.0.
+This project holds `uandi` (component library made with Tailwind for Angular), and `uandi-usage` (application that holds usage examples of the components).
 
 ## Development server
 
