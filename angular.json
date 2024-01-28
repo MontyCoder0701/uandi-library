@@ -63,7 +63,8 @@
               "projects/uandi-usage/src/assets"
             ],
             "styles": [
-              "projects/uandi-usage/src/styles.scss"
+              "projects/uandi-usage/src/styles.scss",
+              "projects/uandi/src/styles.scss"
             ],
             "scripts": []
           },
