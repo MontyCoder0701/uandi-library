@@ -1,14 +1,14 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { UandiModule } from '../../../uandi/src/lib/uandi.module';
+import { ButtonComponent } from 'uandi';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 @NgModule({
   declarations: [AppComponent],
-  imports: [BrowserModule, AppRoutingModule, UandiModule],
+  imports: [BrowserModule, AppRoutingModule, ButtonComponent],
   providers: [],
   bootstrap: [AppComponent],
 })

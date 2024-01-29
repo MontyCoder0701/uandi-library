@@ -1,3 +1,10 @@
-<div>UandI Usage!</div>
-<lib-uandi></lib-uandi>
+<div class="p-5">
+  <h1 class="text-xl font-bold">Buttons</h1>
+  <div class="flex flex-row gap-1">
+    <uai-button text="primary"></uai-button>
+    <uai-button text="primary disabled" [disabled]="true"></uai-button>
+    <uai-button prefixIcon="heart_plus" text="primary prefix icon"></uai-button>
+    <uai-button suffixIcon="heart_plus" text="primary suffix icon"></uai-button>
+  </div>
+</div>
 <router-outlet></router-outlet>

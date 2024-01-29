@@ -7,7 +7,7 @@
       "projectType": "library",
       "root": "projects/uandi",
       "sourceRoot": "projects/uandi/src",
-      "prefix": "lib",
+      "prefix": "uai",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
@@ -45,7 +45,7 @@
       },
       "root": "projects/uandi-usage",
       "sourceRoot": "projects/uandi-usage/src",
-      "prefix": "app",
+      "prefix": "uai-usage",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
