@@ -1,5 +1,5 @@
 {
-  "name": "uandi",
+  "name": "@montycoder0701/uandi",
   "version": "0.0.2",
   "description": "Component library made with Tailwind for Angular",
   "author": "Soojeong Lee",
@@ -29,5 +29,9 @@
   "sideEffects": false,
   "publishConfig": {
     "@montycoder0701:registry": "https://npm.pkg.github.com"
-  }
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "private": false
 }
