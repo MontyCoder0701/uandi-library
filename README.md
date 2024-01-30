@@ -2,6 +2,8 @@
 
 This project holds `uandi` (component library made with Tailwind for Angular), and `uandi-usage` (application that holds usage examples of the components).
 
+<img width="576" alt="Screenshot 2024-01-30 at 11 27 33 PM" src="https://github.com/MontyCoder0701/uandi-library/assets/104475739/b67c9fc6-ba16-414f-abb3-e91cd20e45c3">
+
 ## About This Library
 
 - UandI components are made with Material CDK and Tailwind.
