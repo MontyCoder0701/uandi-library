@@ -32,6 +32,8 @@ export class ButtonComponent {
         return 'bg-black text-white disabled:border-gray-200 hover:bg-gray-700 disabled:bg-gray-100 disabled:text-gray-400';
       case 'TEXT':
         return 'text-black hover:text-gray-500 disabled:text-gray-300';
+      case 'LINK':
+        return 'text-blue-500 hover:text-blue-600 disabled:text-gray-300';
       default:
         return 'border-gray-200 bg-white text-black hover:bg-gray-100 disabled:bg-gray-100 disabled:text-gray-400';
     }

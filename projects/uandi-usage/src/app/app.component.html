@@ -1,40 +1,71 @@
 <div class="p-5">
   <h1 class="text-xl font-bold">Buttons</h1>
-  <div class="flex flex-col gap-1">
-    <div class="flex flex-row gap-1">
-      <uai-button text="hello world" type="PRIMARY"></uai-button>
-      <uai-button
-        text="hello world"
-        type="PRIMARY"
-        [disabled]="true"></uai-button>
-      <uai-button
-        prefixIcon="heart_plus"
-        text="hello world"
-        type="PRIMARY"></uai-button>
-      <uai-button
-        suffixIcon="heart_plus"
-        text="hello world"
-        type="PRIMARY"></uai-button>
+  <div class="flex flex-col gap-3">
+    <div>
+      <span class="font-semibold"> Primary </span>
+      <div class="flex flex-row gap-1">
+        <uai-button text="hello world" type="PRIMARY"></uai-button>
+        <uai-button
+          text="hello world"
+          type="PRIMARY"
+          [disabled]="true"></uai-button>
+        <uai-button
+          prefixIcon="heart_plus"
+          text="hello world"
+          type="PRIMARY"></uai-button>
+        <uai-button
+          suffixIcon="heart_plus"
+          text="hello world"
+          type="PRIMARY"></uai-button>
+      </div>
     </div>
 
-    <div class="flex flex-row gap-1">
-      <uai-button text="hello world"></uai-button>
-      <uai-button text="hello world" [disabled]="true"></uai-button>
-      <uai-button prefixIcon="heart_plus" text="hello world"></uai-button>
-      <uai-button suffixIcon="heart_plus" text="hello world"></uai-button>
+    <div>
+      <span class="font-semibold"> Default </span>
+      <div class="flex flex-row gap-1">
+        <uai-button text="hello world"></uai-button>
+        <uai-button text="hello world" [disabled]="true"></uai-button>
+        <uai-button prefixIcon="heart_plus" text="hello world"></uai-button>
+        <uai-button suffixIcon="heart_plus" text="hello world"></uai-button>
+      </div>
     </div>
 
-    <div class="flex flex-row gap-1">
-      <uai-button text="hello world" type="TEXT"></uai-button>
-      <uai-button text="hello world" type="TEXT" [disabled]="true"></uai-button>
-      <uai-button
-        prefixIcon="heart_plus"
-        text="hello world"
-        type="TEXT"></uai-button>
-      <uai-button
-        suffixIcon="heart_plus"
-        text="hello world"
-        type="TEXT"></uai-button>
+    <div>
+      <span class="font-semibold"> Text </span>
+      <div class="flex flex-row gap-1">
+        <uai-button text="hello world" type="TEXT"></uai-button>
+        <uai-button
+          text="hello world"
+          type="TEXT"
+          [disabled]="true"></uai-button>
+        <uai-button
+          prefixIcon="heart_plus"
+          text="hello world"
+          type="TEXT"></uai-button>
+        <uai-button
+          suffixIcon="heart_plus"
+          text="hello world"
+          type="TEXT"></uai-button>
+      </div>
+    </div>
+
+    <div>
+      <span class="font-semibold"> Link </span>
+      <div class="flex flex-row gap-1">
+        <uai-button text="hello world" type="LINK"></uai-button>
+        <uai-button
+          text="hello world"
+          type="LINK"
+          [disabled]="true"></uai-button>
+        <uai-button
+          prefixIcon="heart_plus"
+          text="hello world"
+          type="LINK"></uai-button>
+        <uai-button
+          suffixIcon="heart_plus"
+          text="hello world"
+          type="LINK"></uai-button>
+      </div>
     </div>
   </div>
 </div>
