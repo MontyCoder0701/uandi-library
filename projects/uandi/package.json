@@ -1,9 +1,13 @@
 {
   "name": "uandi",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Component library made with Tailwind for Angular",
   "author": "Soojeong Lee",
   "repository": {
+    "type": "git",
+    "url": "https://github.com/MontyCoder0701/uandi-library"
+  },
+  "bugs": {
     "type": "git",
     "url": "https://github.com/MontyCoder0701/uandi-library"
   },

@@ -1,4 +1,4 @@
-# Uandi Component Library
+# UandI Component Library
 
 This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.0.
 
@@ -12,3 +12,8 @@ This library was generated with [Angular CLI](https://github.com/angular/angular
 
 - Design is to be accessible, with minimal colors.
 - The design is to be integrated with any system, so should be simple and versatile.
+
+## Used Icons
+
+- Icons that are to be used (for suffixIcon or prefixIcon) should be from the [Material Symbols / Icons library](https://fonts.google.com/icons).
+- Other icons will not work.
