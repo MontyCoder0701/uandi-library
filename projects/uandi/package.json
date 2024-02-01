@@ -1,7 +1,7 @@
 {
   "name": "@montycoder0701/uandi",
-  "version": "0.0.2",
-  "description": "Component library made with Tailwind for Angular",
+  "version": "0.0.3",
+  "description": "Component library made with Tailwind for Angular with Material CDK and Icons",
   "author": "Soojeong Lee",
   "repository": {
     "type": "git",
@@ -27,11 +27,7 @@
     "tslib": "^2.3.0"
   },
   "sideEffects": false,
-  "publishConfig": {
-    "@montycoder0701:registry": "https://npm.pkg.github.com"
-  },
   "workspaces": [
     "packages/*"
-  ],
-  "private": false
+  ]
 }
