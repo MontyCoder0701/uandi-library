@@ -98,4 +98,30 @@
     </div>
   </div>
 </div>
+
+<div class="p-5">
+  <h1 class="text-xl font-bold">Inputs</h1>
+  <div class="flex flex-col gap-3">
+    <div>
+      <span class="font-semibold"> Default </span>
+      <div class="flex flex-row gap-1">
+        <uai-input />
+      </div>
+    </div>
+
+    <div>
+      <span class="font-semibold"> Placeholder </span>
+      <div class="flex flex-row gap-1">
+        <uai-input placeholder="hello world" />
+      </div>
+    </div>
+
+    <div>
+      <span class="font-semibold"> Invalid </span>
+      <div class="flex flex-row gap-1">
+        <uai-input [isInvalid]="true" />
+      </div>
+    </div>
+  </div>
+</div>
 <router-outlet></router-outlet>
