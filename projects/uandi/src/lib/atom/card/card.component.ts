@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'uai-card',
@@ -6,4 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./card.component.css'],
   standalone: true,
 })
-export class CardComponent {}
+export class CardComponent {
+  @Input() title = '';
+  @Input() text = '';
+}
