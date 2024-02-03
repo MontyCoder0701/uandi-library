@@ -1,6 +1,6 @@
 {
   "name": "uandi",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Component library made with Tailwind for Angular with Material CDK and Icons",
   "author": "Soojeong Lee",
   "repository": {
