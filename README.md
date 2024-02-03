@@ -1,7 +1,7 @@
 # UandI Workspace
 
 This project holds `uandi` (component library made with Tailwind for Angular), and `uandi-usage` (application that holds usage examples of the components).
-<img width="624" alt="Screenshot 2024-02-02 at 12 17 41 AM" src="https://github.com/MontyCoder0701/uandi-library/assets/104475739/acdaef04-2886-4670-bd7c-78c0c0d02dcd">
+<img width="938" alt="Screenshot 2024-02-03 at 5 37 14 PM" src="https://github.com/MontyCoder0701/uandi-library/assets/104475739/351cfef3-9561-4006-b3fb-2f9d5fad7fec">
 
 ## About This Library
 
