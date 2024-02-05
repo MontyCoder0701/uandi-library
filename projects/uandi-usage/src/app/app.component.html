@@ -130,32 +130,37 @@
   <div class="flex gap-3">
     <div>
       <span class="font-semibold"> Default </span>
-      <div class="flex flex-row gap-1">
+      <div class="flex w-64 flex-row gap-1">
         <uai-card
           text="Hello World, This is the Text for the Card Component. You can write different details about the card here"
-          title="This is Title"></uai-card>
+          title="Title for Card"></uai-card>
       </div>
     </div>
 
     <div>
       <span class="font-semibold"> Has Radio </span>
-      <div class="flex flex-row gap-1">
+      <div class="flex w-64 flex-row gap-1">
         <uai-card
           text="Hello World, This is the Text for the Card Component. You can write different details about the card here"
-          title="This is Title"
-          [hasRadio]="true"></uai-card>
-
-        <uai-card
-          text="Hello World, This is the Text for the Card Component. You can write different details about the card here"
-          title="This is Title"
-          [hasRadio]="true"></uai-card>
-
-        <uai-card
-          text="Hello World, This is the Text for the Card Component. You can write different details about the card here"
-          title="This is Title"
+          title="Title for Card"
           [hasRadio]="true"></uai-card>
       </div>
     </div>
   </div>
-  <router-outlet></router-outlet>
 </div>
+<div class="p-5">
+  <h1 class="text-xl font-bold">Dialog</h1>
+  <div class="flex gap-3">
+    <div>
+      <span class="font-semibold"> Default </span>
+      <div class="flex w-96 flex-row gap-1">
+        <uai-dialog
+          text="Hello World, This is the Text for the Dialog Component. Prompt users to do some action here"
+          title="Title for Dialog"
+          (cancelClickEventEmitter)="handleButtonClick()"
+          (confirmClickEventEmitter)="handleButtonClick()"></uai-dialog>
+      </div>
+    </div>
+  </div>
+</div>
+<router-outlet></router-outlet>
