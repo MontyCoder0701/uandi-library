@@ -1,7 +1,12 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { ButtonComponent, CardComponent, InputComponent } from 'uandi';
+import {
+  ButtonComponent,
+  CardComponent,
+  DialogComponent,
+  InputComponent,
+} from 'uandi';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -14,6 +19,7 @@ import { AppComponent } from './app.component';
     ButtonComponent,
     InputComponent,
     CardComponent,
+    DialogComponent,
   ],
   providers: [],
   bootstrap: [AppComponent],

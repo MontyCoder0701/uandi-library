@@ -1,0 +1,18 @@
+<div
+  class="flex w-full flex-col justify-between gap-3 rounded-md border-0 p-3 shadow-sm ring-1 ring-inset ring-gray-300">
+  <div class="flex flex-col gap-y-2">
+    <div class="text-lg font-semibold">{{ title }}</div>
+    <div class="text-gray-500">{{ text }}</div>
+  </div>
+
+  <div class="flex justify-end gap-2">
+    <uai-button
+      text="Confirm"
+      type="primary"
+      (click)="handleConfirmClick()"></uai-button>
+    <uai-button
+      text="Cancel"
+      type="default"
+      (click)="handleCancelClick()"></uai-button>
+  </div>
+</div>
