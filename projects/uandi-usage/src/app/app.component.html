@@ -161,6 +161,17 @@
           (confirmClickEventEmitter)="handleButtonClick()"></uai-dialog>
       </div>
     </div>
+
+    <div>
+      <span class="font-semibold"> Only Confirm </span>
+      <div class="flex w-96 flex-row gap-1">
+        <uai-dialog
+          text="Hello World, This is the Text for the Dialog Component. Prompt users to do some action here"
+          title="Title for Dialog"
+          [hasOnlyConfirm]="true"
+          (confirmClickEventEmitter)="handleButtonClick()"></uai-dialog>
+      </div>
+    </div>
   </div>
 </div>
 <router-outlet></router-outlet>

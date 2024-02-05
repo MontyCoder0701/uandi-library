@@ -11,6 +11,7 @@
       type="primary"
       (click)="handleConfirmClick()"></uai-button>
     <uai-button
+      *ngIf="!hasOnlyConfirm"
       text="Cancel"
       type="default"
       (click)="handleCancelClick()"></uai-button>

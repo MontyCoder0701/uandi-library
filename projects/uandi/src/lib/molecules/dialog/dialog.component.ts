@@ -13,6 +13,7 @@ import { ButtonComponent } from '../../atoms/button/button.component';
 export class DialogComponent {
   @Input() title = '';
   @Input() text = '';
+  @Input() hasOnlyConfirm = false;
   @Output() confirmClickEventEmitter = new EventEmitter();
   @Output() cancelClickEventEmitter = new EventEmitter();
 
